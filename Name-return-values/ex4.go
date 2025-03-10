@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func split(sum int) (x, y int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return
+func twoSum(nums []int, target int) []int {
+	return nil
 }
 
 func main() {
-	fmt.Println(split(17))
+	num := []int{2, 7, 11, 15}
+	target := 9
+	fmt.Println(twoSum(num, target))
 }
